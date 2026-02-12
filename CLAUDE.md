@@ -15,7 +15,7 @@ This is a Claude Code plugin marketplace repository. Users can add this marketpl
 
 ```bash
 # Add marketplace (one-time)
-claude plugin marketplace add github:SeleznovIvan/claude-code-education
+claude plugin marketplace add SeleznovIvan/claude-code-education
 
 # Install plugins
 claude plugin install cc-course@claude-code-education

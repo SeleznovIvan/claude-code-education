@@ -3,7 +3,7 @@
 This document describes how to create the `SeleznovIvan/claude-plugins` marketplace repository to enable easy plugin installation via:
 
 ```bash
-claude plugin marketplace add github:SeleznovIvan/claude-plugins
+claude plugin marketplace add SeleznovIvan/claude-plugins
 claude plugin install cc-course@ivan-plugins
 ```
 
@@ -69,7 +69,7 @@ A marketplace of Claude Code plugins for developers.
 Add this marketplace to Claude Code:
 
 ```bash
-claude plugin marketplace add github:SeleznovIvan/claude-plugins
+claude plugin marketplace add SeleznovIvan/claude-plugins
 ```
 
 ## Available Plugins
@@ -145,7 +145,7 @@ MIT License (standard MIT license text)
 5. **Test the marketplace**
    ```bash
    # Add the marketplace
-   claude plugin marketplace add github:SeleznovIvan/claude-plugins
+   claude plugin marketplace add SeleznovIvan/claude-plugins
 
    # Verify it's listed
    claude plugin marketplace list
@@ -170,7 +170,7 @@ Update the course plugin's README.md and CLAUDE.md with new installation instruc
 
 ```bash
 # Add the marketplace (one-time)
-claude plugin marketplace add github:SeleznovIvan/claude-plugins
+claude plugin marketplace add SeleznovIvan/claude-plugins
 
 # Install the course plugin
 claude plugin install cc-course@ivan-plugins
@@ -190,7 +190,7 @@ git clone https://github.com/SeleznovIvan/claude-code-course-plugin.git ~/.claud
 
 ```bash
 # 1. Add the marketplace
-claude plugin marketplace add github:SeleznovIvan/claude-plugins
+claude plugin marketplace add SeleznovIvan/claude-plugins
 
 # 2. Install the course plugin
 claude plugin install cc-course@ivan-plugins
