@@ -1,0 +1,31 @@
+{
+  "name": "claude-code-education",
+  "owner": {
+    "name": "Ivan Seleznov",
+    "email": "your-email@example.com"
+  },
+  "metadata": {
+    "description": "Claude Code educational plugins - courses, tools, and utilities",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cc-course",
+      "source": {
+        "source": "github",
+        "repo": "SeleznovIvan/claude-code-course-plugin",
+        "ref": "v0.1-alpha"
+      },
+      "description": "Interactive 5-module course teaching Claude Code development. Learn by building real configurations for your own repository.",
+      "version": "0.1.0-alpha",
+      "author": {
+        "name": "Ivan Seleznov"
+      },
+      "homepage": "https://github.com/SeleznovIvan/claude-code-course-plugin",
+      "repository": "https://github.com/SeleznovIvan/claude-code-course-plugin",
+      "license": "MIT",
+      "keywords": ["course", "learning", "tutorial", "skills", "education", "training"],
+      "category": "education"
+    }
+  ]
+}
