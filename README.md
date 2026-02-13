@@ -7,7 +7,7 @@ A marketplace of Claude Code educational plugins for developers.
 Add this marketplace to Claude Code:
 
 ```bash
-claude plugin marketplace add SeleznovIvan/claude-code-education
+claude plugin marketplace add https://github.com/SeleznovIvan/claude-code-education
 ```
 
 ## Available Plugins
@@ -37,7 +37,7 @@ claude plugin install cc-course@claude-code-education
 
 ```bash
 # 1. Add the marketplace
-claude plugin marketplace add SeleznovIvan/claude-code-education
+claude plugin marketplace add https://github.com/SeleznovIvan/claude-code-education
 
 # 2. Install the course plugin
 claude plugin install cc-course@claude-code-education
