@@ -13,10 +13,10 @@
       "name": "cc-course",
       "source": {
         "source": "github",
-        "repo": "SeleznovIvan/claude-code-course-plugin"
+        "repo": "SeleznovIvan/claude-code-course-plugin",
+        "ref": "main"
       },
       "description": "Interactive 5-module course teaching Claude Code development. Learn by building real configurations for your own repository.",
-      "version": "0.7.0-alpha",
       "author": {
         "name": "Ivan Seleznov"
       },
